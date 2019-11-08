@@ -1,0 +1,11 @@
+@import '../constants.scss';
+
+.left-menu{
+    min-width: 350px;
+    height: 930px;
+    border: 1px solid $gray;
+    background-color: $white;
+    box-shadow: 0 3px 15px rgba(0, 34, 113, 0.26);
+    border-radius: 8px;
+    margin-right: 30px;
+}

@@ -1,0 +1,58 @@
+@import '../constants.scss';
+
+.title{
+    height: 550px;
+    width: 100%;
+    background-image: url('../assets/title.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 30px;
+    
+    &__block{
+        margin-left: 165px;
+    }
+    &__h1{
+        // width: 473px;
+        // height: 56px;
+        color: $white;
+        font-family: "Helvetica Neue";
+        font-size: 46px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    &__p{
+        width: 395px;
+        height: 47px;
+        color: $white;
+        font-family: "Helvetica Neue";
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 26px;
+        margin-bottom: 56px;
+    }
+}
+
+.btn{
+    width: 220px;
+    height: 44px;
+    background-color: $orange_btn;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover{
+        background-color: $violet_btn;
+    }
+
+    &__text{
+        height: 19px;
+        color: $white;
+        font-family: "Helvetica Neue";
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 19px;
+    }
+}

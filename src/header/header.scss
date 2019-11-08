@@ -1,0 +1,38 @@
+@import '../constants.scss';
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 90px;
+    background-color: $white;
+    
+    &__item{
+        // width: 112px;
+        height: 22px;
+        color: #434343;
+        font-family: "Helvetica Neue";
+        font-size: 18px;
+        font-weight: 500;
+        
+        &:not(:last-child){
+            margin-right: 30px;
+        }
+    }
+
+    &__logo{
+        background-image: url("../assets/logo.png");
+        background-size: 175%;
+        background-position: center;
+        width: 107px;
+        height: 54px;
+    }
+    &__phone{
+        // width: 191px;
+        height: 27px;
+        color: #434343;
+        font-family: "Helvetica Neue";
+        font-size: 22px;
+        font-weight: 700;
+    }
+}

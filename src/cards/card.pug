@@ -1,0 +1,12 @@
+mixin card(date, title, cost, time)
+    .card
+        .card__picture(style=attributes.style)
+        .card__date= date
+        .card__title= title
+        .card__cost-block
+            .card__cost= cost
+            .card__cost--color_gray c человека
+        .card__footer
+            .card__clock
+            .card__time= time
+            .card__title Подробнее

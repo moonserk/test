@@ -1,0 +1,26 @@
+include card.pug
+
+
+.layout
+    include left_menu.pug
+    .layout__cards
+        .layout__item 
+            +card("29.09.2019", 
+            "Прогулки по Енисею на теплоходе «Близняк»", 
+            "от 900 ₽", 
+            "2 часа")(style="background-image: url('/assets/boat1.png')")
+        .layout__item 
+            +card("27.09.2019",
+            "Прогулка на яхте по Красноярскому морю и заливу Бирюса до Царских ворот",
+            "от 1 200 ₽",
+            "3 часа")(style="background-image: url('/assets/boat2.png')")
+        .layout__item 
+            +card("29.09.2019", 
+            "Прогулки по Енисею на теплоходе «Близняк»", 
+            "от 900 ₽", 
+            "2 часа")(style="background-image: url('/assets/boat3.png')")
+        .layout__item 
+            +card("27.09.2019",
+            "Прогулка на яхте по Красноярскому морю и заливу Бирюса до Царских ворот",
+            "от 1 200 ₽",
+            "3 часа")(style="background-image: url('/assets/boat3.png')")
